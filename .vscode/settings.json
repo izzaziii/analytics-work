@@ -1,5 +1,6 @@
 {
     "files.exclude": {
+        "**/__pycache__": true,
         "**/analytics_work.egg-info": true
     }
 }
