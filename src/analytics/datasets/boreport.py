@@ -14,11 +14,27 @@ BO_REPORT_PATH = os.getenv("BOREPORT_PATH")
 class BOReport:
     """
     A class to handle Business Objects report processing.
+
+    Example usage:
+
+    ```python
+    bo_report = BOReport()
+    data = bo_report.read_data()
+    processed_data = bo_report.process_data()
+    ```
     """
 
     def __init__(self, file_path=None):
         """
         Initialize the BOReport object.
+
+        Example usage:
+
+        ```python
+        bo_report = BOReport()
+        data = bo_report.read_data()
+        processed_data = bo_report.process_data()
+        ```
 
         Args:
             file_path (str, optional): Path to the BO report file. Defaults to BO_REPORT_PATH.

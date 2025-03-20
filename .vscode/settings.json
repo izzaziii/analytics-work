@@ -1,0 +1,5 @@
+{
+    "files.exclude": {
+        "**/analytics_work.egg-info": true
+    }
+}
