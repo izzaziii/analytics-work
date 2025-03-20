@@ -6,8 +6,8 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     description="Analytics tools and utilities",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Izzaz Iskandar",
+    author_email="izzaz@time.com.my",
     url="https://github.com/izzaziii/analytics-work",
     python_requires=">=3.8",
     install_requires=[
@@ -17,7 +17,10 @@ setup(
         "seaborn",
         "scikit-learn",
         "jupyter",
+        "python-dotenv",
     ],
+    # Define the actual package name
+    py_modules=["analytics"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
