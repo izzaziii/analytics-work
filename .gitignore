@@ -2,6 +2,7 @@
 *.csv
 *.ipynb
 *.xlsx
+ga4_creds.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
